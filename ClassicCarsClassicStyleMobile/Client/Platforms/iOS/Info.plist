@@ -32,5 +32,15 @@
 	<string>This app needs Bluetooth to communicate with external devices.</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>This app needs Bluetooth to communicate with external devices.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app requires location services for navigation.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app requires location services for navigation.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app requires location services for navigation.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 </dict>
 </plist>
