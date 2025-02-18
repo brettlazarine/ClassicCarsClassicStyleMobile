@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
+        <UseMaui>true</UseMaui>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
@@ -10,6 +11,11 @@
       <Folder Include="Models\" />
       <Folder Include="Services\" />
       <Folder Include="Utilities\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Shiny.BluetoothLE" Version="3.3.4" />
+      <PackageReference Include="Shiny.Locations" Version="3.3.4" />
     </ItemGroup>
 
 </Project>
