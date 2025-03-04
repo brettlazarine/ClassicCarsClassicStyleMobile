@@ -12,6 +12,12 @@
         <Button 
             Text="Test RPiIP With a Call to the API"
             Clicked="VerifyRPiConnectionCommand"/>
+        <Label 
+            Text="{Binding HostName}"/>
+        <Label 
+            Text="{Binding IpAddress}"/>
+        <Label
+            Text="{Binding ApiStatus}" />
         
         <ListView
             x:Name="lvDevices"
